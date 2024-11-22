@@ -235,7 +235,7 @@
 	H.STAEND = 6
 	H.STAINT = 10
 	H.facial_hairstyle = "gnomebeard"
-	var/loadout = rand(1,2)
+	var/loadout = rand(1,4)
 	switch(loadout)
 		if(1) //blades
 			if(prob(50))
@@ -248,9 +248,43 @@
 			if(prob(25))
 				l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
 
+			if(prob(50))
+				head = /obj/item/clothing/head/roguetown/helmet/leather/fungi
+			else
+				head = /obj/item/clothing/head/roguetown/helmet/leather/gnomehat
+			shirt = /obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue
+			shoes = /obj/item/clothing/shoes/roguetown/shortboots
 		if(2) //blunt
 			if(prob(50))
 				r_hand = /obj/item/rogueweapon/polearm/woodstaff/quarterstaff/iron
 			else
 				r_hand = /obj/item/rogueweapon/mace
+			if(prob(25))
+				l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
 
+			if(prob(50))
+				head = /obj/item/clothing/head/roguetown/helmet/leather/fungi
+			else
+				head = /obj/item/clothing/head/roguetown/helmet/leather/gnomehat
+
+			shirt = /obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue2
+			shoes = /obj/item/clothing/shoes/roguetown/sandals
+
+		if(3) //heavy armor
+			r_hand = /obj/item/rogueweapon/sword/short/iron
+
+			if(prob(90))
+				l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
+			else
+				l_hand = /obj/item/rogueweapon/knife/dagger/steel
+
+			head = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
+			armor = /obj/item/clothing/head/roguetown/helmet/gnomespike
+			shoes = /obj/item/clothing/shoes/roguetown/shortboots
+
+		if(3) //elite
+			r_hand = /obj/item/rogueweapon/sword/short
+			l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
+			head = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
+			armor = /obj/item/clothing/head/roguetown/helmet/gnomespike
+			shoes = /obj/item/clothing/shoes/roguetown/shortboots

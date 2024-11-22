@@ -1866,6 +1866,7 @@
 #include "code\modules\clothing\rogueclothes\shirts.dm"
 #include "code\modules\clothing\rogueclothes\storage.dm"
 #include "code\modules\clothing\rogueclothes\wrists.dm"
+#include "code\modules\clothing\rogueclothes\npc\gnome.dm"
 #include "code\modules\clothing\rogueclothes\npc\goblin.dm"
 #include "code\modules\clothing\rogueclothes\npc\orc.dm"
 #include "code\modules\clothing\shoes\_shoes.dm"
