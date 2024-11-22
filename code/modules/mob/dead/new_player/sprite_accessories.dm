@@ -782,6 +782,11 @@
 	gender = MALE
 	specuse = list("human", "dwarf", "elf", "tiefling")
 
+/datum/sprite_accessory/facial_hair/gnome //NPC-only
+	name = "gnomebeard"
+	icon = "icons/roguetown/mob/monster/gnome.dmi"
+	icon_state = "gnome_beard"
+	specuse = list("gnome")
 ///////////////////////////
 // Accessory Definitions //
 ///////////////////////////
