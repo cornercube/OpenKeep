@@ -2,7 +2,7 @@
 	name = "gnome"
 
 	icon = 'icons/roguetown/mob/monster/gnome.dmi'
-	icon_state = "gnome"
+	icon_state = "gnome_b1"
 	race = /datum/species/gnome
 	gender = MALE
 	bodyparts = list(/obj/item/bodypart/chest/gnome, /obj/item/bodypart/head/gnome, /obj/item/bodypart/l_arm/gnome,
@@ -64,11 +64,11 @@
 /datum/species/gnome
 	name = "gnome"
 	id = "gnome"
-	species_traits = list(NO_UNDERWEAR,NOEYESPRITES)
+	species_traits = list(NO_UNDERWEAR)
 	inherent_traits = list(TRAIT_NOROGSTAM,TRAIT_RESISTCOLD,TRAIT_RESISTHIGHPRESSURE,TRAIT_RESISTLOWPRESSURE,TRAIT_RADIMMUNE, TRAIT_EASYDISMEMBER, TRAIT_CRITICAL_WEAKNESS, TRAIT_NASTY_EATER, TRAIT_LEECHIMMUNE, TRAIT_INHUMENCAMP)
 	nojumpsuit = 1
 	sexes = 1
-	offset_features = list(OFFSET_HANDS = list(0,-4), OFFSET_HANDS_F = list(0,-4))
+	offset_features = list(OFFSET_HANDS = list(0,-7), OFFSET_HANDS_F = list(0,-7))
 	damage_overlay_type = ""
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	var/raceicon = "gnome"
@@ -278,13 +278,13 @@
 			else
 				l_hand = /obj/item/rogueweapon/knife/dagger/steel
 
-			head = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
-			armor = /obj/item/clothing/head/roguetown/helmet/gnomespike
+			armor = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
+			head = /obj/item/clothing/head/roguetown/helmet/gnomespike
 			shoes = /obj/item/clothing/shoes/roguetown/shortboots
 
-		if(3) //elite
+		if(4) //elite
 			r_hand = /obj/item/rogueweapon/sword/short
 			l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
-			head = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
-			armor = /obj/item/clothing/head/roguetown/helmet/gnomespike
+			armor = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
+			head = /obj/item/clothing/head/roguetown/helmet/gnomespike
 			shoes = /obj/item/clothing/shoes/roguetown/shortboots
