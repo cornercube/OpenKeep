@@ -252,7 +252,7 @@
 				head = /obj/item/clothing/head/roguetown/helmet/leather/fungi
 			else
 				head = /obj/item/clothing/head/roguetown/helmet/leather/gnomehat
-			shirt = /obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue
+			shirt = /obj/item/clothing/suit/roguetown/shirt/gnome
 			shoes = /obj/item/clothing/shoes/roguetown/shortboots
 		if(2) //blunt
 			if(prob(50))
@@ -267,18 +267,19 @@
 			else
 				head = /obj/item/clothing/head/roguetown/helmet/leather/gnomehat
 
-			shirt = /obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue2
+			shirt = /obj/item/clothing/suit/roguetown/shirt/gnome
 			shoes = /obj/item/clothing/shoes/roguetown/sandals
 
 		if(3) //heavy armor
 			r_hand = /obj/item/rogueweapon/sword/short/iron
 
-			if(prob(90))
+			if(prob(50))
 				l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
 			else
 				l_hand = /obj/item/rogueweapon/knife/dagger/steel
 
 			armor = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
+			shirt = /obj/item/clothing/suit/roguetown/shirt/gnome
 			head = /obj/item/clothing/head/roguetown/helmet/gnomespike
 			shoes = /obj/item/clothing/shoes/roguetown/shortboots
 
@@ -287,4 +288,5 @@
 			l_hand = /obj/item/rogueweapon/shield/tower/buckleriron
 			armor = /obj/item/clothing/suit/roguetown/armor/cuirass/iron/gnome
 			head = /obj/item/clothing/head/roguetown/helmet/gnomespike
+			shirt = /obj/item/clothing/suit/roguetown/shirt/gnome
 			shoes = /obj/item/clothing/shoes/roguetown/shortboots

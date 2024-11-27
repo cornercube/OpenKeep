@@ -16,22 +16,27 @@
 	prevent_crits = ALL_EXCEPT_BLUNT
 	max_integrity = INTEGRITY_STRONG
 
-/obj/item/clothing/suit/roguetown/shirt/robe/gnome
+/obj/item/clothing/suit/roguetown/shirt/gnome
 	name = "gnome robe"
 	desc = "the garb of a gnome."
 	icon = 'icons/roguetown/mob/monster/gnome.dmi'
-	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT
+	slot_flags = ITEM_SLOT_SHIRT
+	anvilrepair = null
+	smeltresult = /obj/item/ash
 	icon_state = "gnome_robe_item"
 	item_state = "gnome_robe"
 	allowed_race = list("gnome")
 
-/obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue
-	color = CLOTHING_BERRY_BLUE
+/obj/item/clothing/suit/roguetown/shirt/gnome/blue
+	icon_state = "grobe_c_item"
+	item_state = "grobe_c"
 
-/obj/item/clothing/suit/roguetown/shirt/robe/gnome/blue2
-	color = CLOTHING_SKY_BLUE
+/obj/item/clothing/suit/roguetown/shirt/gnome/green
+	icon_state = "grobe_a_item"
+	item_state = "grobe_a"
 
-/obj/item/clothing/suit/roguetown/shirt/robe/gnome/bog
+
+/obj/item/clothing/suit/roguetown/shirt/gnome/bog
 	desc = "the garb of a bog gnome."
 	icon_state = "gnome_robe_bog_item"
 	item_state = "gnome_robe_bog"
