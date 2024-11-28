@@ -1,5 +1,7 @@
 
 
+/////////////////orcs///////////////////////////
+
 /obj/effect/mob_spawn/human/orc/corpse/savageorc
 	mob_name = "Savage Orc"
 	name = "Savage Orc"
@@ -57,3 +59,21 @@
 	gloves = /obj/item/clothing/gloves/roguetown/chain
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
 ///	mask = /obj/item/clothing/mask/rogue/skullmask	Vanderlin clothing TO DO review it
+
+//////////gnomes////////////////////////////////////////////////////////
+
+/obj/effect/mob_spawn/human/gnome_simple/corpse
+	mob_name = "Gnome"
+	name = "Gnome"
+	hairstyle = "Bald"
+	facial_hairstyle = "gnomebeard"
+	outfit = /datum/outfit/gnome_simple
+
+/datum/outfit/gnome_simple
+	shirt = /obj/item/clothing/suit/roguetown/shirt/gnome/blue
+	head = /obj/item/clothing/head/roguetown/helmet/leather/gnomehat
+
+
+///////////////////////////////////////////////////////////////////////
+
+
